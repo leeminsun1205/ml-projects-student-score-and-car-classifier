@@ -1,3 +1,4 @@
+
 <!-- Banner -->
 <p align="center">
   <a href="https://www.uit.edu.vn/" title="Trường Đại học Công nghệ Thông tin" style="border: none;">
@@ -40,3 +41,4 @@
 | MSSV       | Họ và Tên          | Email                   | Github                                                                                                                      |
 | ---------- | ------------------ | ----------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | `22521060` | Lê Minh Nhựt| 22521060@gm.uit.edu.vn | [![](https://img.shields.io/badge/leeminsun1205-%2324292f.svg?style=flat-square&logo=github      )](https://github.com/leeminsun1205) |
+|22521027|Tăng Nhất|22521027@gm.uit.edu.vn|[![](https://img.shields.io/badge/GadGadGad-%2324292f.svg?style=flat-square&logo=github      )](https://github.com/GadGadGad) |
