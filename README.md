@@ -19,4 +19,4 @@
 # Thông tin Thành viên
 | MSSV       | Họ và Tên          | Email                   | Github                                                                                                                      |
 | ---------- | ------------------ | ----------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| `22521060` | Lê Minh Nhựt| 22521060@gm.uit.edu.vn | [![](https://img.shields.io/badge/sloweyyy-%2324292f.svg?style=flat-square&logo=github      )](https://github.com/sloweyyy) |
+| `22521060` | Lê Minh Nhựt| 22521060@gm.uit.edu.vn | [![](https://img.shields.io/badge/sloweyyy-%2324292f.svg?style=flat-square&logo=github      )](https://github.com/leeminsun1205) |
