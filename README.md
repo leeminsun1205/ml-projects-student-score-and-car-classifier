@@ -5,7 +5,7 @@
   </a>
 </p>
 
-<h1 align="center" style="color: #4032a8;"><b>📘 CS114.P11 - MÁY HỌC 📘</b></h1>
+<h1 align="center" style="color: #4032A8;"><b>📘 CS114.P11 - MÁY HỌC 📘</b></h1>
 
 <hr>
 
