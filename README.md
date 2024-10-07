@@ -5,7 +5,7 @@
   </a>
 </p>
 
-<h1 align="center" style="color: #f57c00;"><b>📘 CS114.P11 - MÁY HỌC 📘</b></h1>
+<h1 align="center" style="color: #4032a8;"><b>📘 CS114.P11 - MÁY HỌC 📘</b></h1>
 
 <hr>
 
@@ -13,7 +13,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Machine%20Learning-CS114-blueviolet?style=for-the-badge">
   <img src="https://img.shields.io/badge/UIT-2024--2025-lightblue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Team-CS114CS114%20Squad-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Team-CS114%20Squad-green?style=for-the-badge">
 </p>
 
 <hr>
