@@ -9,7 +9,6 @@
 
 <hr>
 <!-- Badge -->
-![Language](https://img.shields.io/badge/python%203.12-%23FFF.svg?style=for-the-badge&logo=python)
 
 ## MỤC LỤC
 * [ Giới thiệu môn học](#gioithieumonhoc)
