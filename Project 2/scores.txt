@@ -1,0 +1,1056 @@
+data_loader_h2o:
+TBTL: 23 - 2264
+QT: 33 - 3326
+TH: 45 - 4402
+CK: 41 - 4095
+
+data_loader_temp:
+TBTL: 30 - 2902 - 237435
+QT: 43 - 4216 - 237437
+TH: 50 - 4922 - 237436
+CK: 43 - 4222 - 237438
+
+data_loader_autogluon:
+TBTL: 28 - 2707
+QT: 39 - 3811
+TH: 48 - 4738
+ck: 41 - 4058
+
+data_loader_mljar:
+TBTL: 27 - 2694
+QT: 38 - 3760
+TH: 48 - 4706
+ck: 40 - 3986
+
+Tuning:
+------------------
+if ratio >= 0.8:
+    return 'easy'
+elif ratio >= 0.4:
+    return 'medium'
+elif ratio >= 0.2:
+    return 'hard'
+elif ratio >= 0.1:
+    return 'super_hard'
+else:
+TBTL: 28 - 2719 - 236979
+QT: 42 - 4157 - 236980
+TH: 49 - 4847 - 236981
+ck: 42 - 4140 - 236982
+-------------------
+
+------------------
+if ratio >= 0.6:
+    return 'easy'
+elif ratio >= 0.4:
+    return 'medium'
+elif ratio >= 0.2:
+    return 'hard'
+elif ratio >= 0.1:
+    return 'super_hard'
+else:
+    return 'deadly_hard'
+TBTL: 28 - 2794 - 236983
+QT: 42 - 4190 - 236984
+TH: 49 - 4873 - 236985
+ck: 42 - 4157 - 236987
+-------------------
+------------------
+if ratio >= 0.5:
+    return 'easy':
+TBTL: 28 - 2726 - 236992
+QT: 42 - 4166 - 236989
+TH: 49 - 4873 - 236990
+ck: 42 - 4154 - 236991
+-------------------
+-------------------
+if ratio >= 0.6:
+    return 'easy'
+elif ratio >= 0.3:
+    return 'medium'
+elif ratio >= 0.2:
+    return 'hard'
+elif ratio >= 0.1:
+    return 'super_hard'
+else:
+    return 'deadly_hard'
+
+TBTL: 28 - 2744 - 236993
+QT: 42 - 4176 - 236994
+TH: 49 - 4890 - 236995
+ck: 41 - 4084 - 236996
+-------------------
+-------------------
+if ratio >= 0.6:
+    return 'easy'
+elif ratio >= 0.4:
+    return 'medium'
+elif ratio >= 0.3:
+    return 'hard'
+elif ratio >= 0.2:
+    return 'super_hard'
+else:
+    return 'deadly_hard'
+
+TBTL: 28 - 2759 - 236997
+QT: 42 - 4190 - 236998
+TH: 49 - 4806 - 236999
+ck: 42 - 4119 - 237000
+-------------------
+-------------------
+if ratio >= 0.6:
+    return 'easy'
+elif ratio >= 0.4:
+    return 'medium'
+elif ratio >= 0.3:
+    return 'hard'
+elif ratio >= 0.1:
+    return 'super_hard'
+else:
+    return 'deadly_hard'
+
+TBTL: 29 - 2812 - 237001
+QT: 42 - 4176 - 237002
+TH: 48 - 4733 - 237003
+ck: 42 - 4128 - 237004
+-------------------
+====================
+if ratio >= 0.6:
+    return 'easy'
+elif ratio >= 0.4:
+    return 'medium'
+elif ratio >= 0.2:
+    return 'hard'
+elif ratio >= 0.1:
+    return 'super_hard'
+else:
+    return 'deadly_hard'
+TBTL: 28 - 2794 - 236983
+QT: 42 - 4190 - 236984
+TH: 49 - 4873 - 236985
+ck: 42 - 4157 - 236987
+===================
+-------------------
+['std_time_to_solve', 'avg_time_to_solve', 'time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                    'mean_num_updated_at', 'mean_num_created_at',
+                   ]
+TBTL: 28 - 2785 - 237009
+QT: 42 - 4190 - 237010
+TH: 49 - 4815 - 237011
+ck: 41 - 4094 - 237012
+-------------------
+-------------------
+['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                    'mean_num_updated_at', 'mean_num_created_at',
+                   ]
+TBTL: 27 - 2672 - 237017
+QT: 42 - 4184 - 237014
+TH: 49 - 4862 - 237015
+ck: 42 - 4139 - 237016
+-------------------
+-------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   ]
+TBTL: 28 - 2786 - 237018
+QT: 42 - 4181 - 237019
+TH: 49 - 4866 - 237020
+ck: 42 - 4185 - 237021                  
+-------------------
+-------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'num_assignments'
+                   ]
+TBTL: 28 - 2707 - 237022
+QT: 42 - 4165 - 237023
+TH: 50 - 4922 - 237024
+ck: 42 - 4161 - 237025                  
+-------------------
+-------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'num_problems'
+                   ]
+TBTL: 28 - 2744 - 237026
+QT: 42 - 4177 - 237028
+TH: 50 - 4912 - 237027
+ck: 42 - 4187 - 237029                  
+-------------------
+-------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'num_submissions'
+                   ]
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std', 'mean_num_updated_at',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+columns_top_drop_TH = columns_to_drop + ['num_assignments']
+TBTL: 28 - 2728 - 237030
+QT: 42 - 4183 - 237032
+TH: 49 - 4828 - 237031
+ck: 42 - 4165 - 237033                  
+-------------------
+-------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'num_assignments', 'num_problems'
+                   ]
+TBTL: 28 - 2769 - 237034
+QT: 42 - 4168 - 237035
+TH: 49 - 4858 - 237036
+ck: 42 - 4148 - 237037                 
+-------------------
+-------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'num_problems', 'num_assignments', 'ratio_error_submissions'
+                   ]
+TBTL: 29 - 2826 - 237038
+QT: 42 - 4168 - 237039
+TH: 49 - 4882 - 237040
+ck: 42 - 4141 - 237041    
+-------------------
+-------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'ratio_error_submissions'
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std', 'mean_num_updated_at',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+columns_top_drop_TH = columns_to_drop + ['num_assignments']
+TBTL: 29 - 2826 - 237042
+QT: 42 - 4181 - 237043
+TH: 49 - 4867 - 237044
+ck: 43 - 4203 - 237045    
+----------------------
+----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'num_problems', 'num_assignments', 'ratio_error_submissions',
+                   'num_WRONG',
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+TBTL: 28 - 2797 - 237046
+QT: 42 - 4168 - 237047
+TH: 49 - 4880 - 237048
+ck: 42 - 4115 - 237049                                            
+----------------------
+----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'ratio_error_submissions','num_WRONG'
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std', 'mean_num_updated_at',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+columns_top_drop_TH = columns_to_drop + ['num_assignments']
+TBTL: 29 - 2867 - 237050
+QT: 42 - 4168 - 237051
+TH: 49 - 4833 - 237052
+ck: 42 - 4108 - 237053   
+----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'num_problems', 'num_assignments', 'ratio_error_submissions',
+                   'num_status_SYNTAX_ERROR',
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+TBTL: 28 - 2798 - 237054
+QT: 42 - 4168 - 237056
+TH: 49 - 4879 - 237055
+ck: 42 - 4155 - 237057                                            
+----------------------
+----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'ratio_error_submissions','num_status_SYNTAX_ERROR'
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std', 'mean_num_updated_at',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+columns_top_drop_TH = columns_to_drop + ['num_assignments']
+TBTL: 29 - 2811 - 237058
+QT: 42 - 4181 - 237069
+TH: 49 - 4882 - 237059
+ck: 42 - 4181 - 237061   
+----------------------
+----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'num_problems', 'num_assignments', 'ratio_error_submissions',
+                   'num_status_SYNTAX_ERROR', 'num_status_COMPILATION_ERROR'
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+TBTL: 28 - 2753 - 237062
+QT: 42 - 4168 - 237065
+TH: 49 - 4888 - 237066
+ck: 42 - 4138 - 237067   
+----------------------
+----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'ratio_error_submissions','num_status_SYNTAX_ERROR',
+                   'num_status_COMPILATION_ERROR'
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std', 'mean_num_updated_at',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+columns_top_drop_TH = columns_to_drop + ['num_assignments']
+TBTL: 29 - 2806 - 237068
+QT: 42 - 4181 - 237069
+TH: 49 - 4883 - 237070
+ck: 42 - 4159 - 237071   
+----------------------
+----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'ratio_error_submissions','num_status_SYNTAX_ERROR',
+                   'num_status_COMPILATION_ERROR',
+                   'mean_submit_day', 'mean_submit_hour',
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std', 'mean_num_updated_at',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+columns_top_drop_TH = columns_to_drop + ['num_assignments']
+TBTL: 28 - 2708 - 237072
+QT: 42 - 4181 - 237073
+TH: 49 - 4894 - 237074
+ck: 42 - 4166 - 237076  
+----------------------
+----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'num_problems', 'num_assignments', 'ratio_error_submissions',
+                   'num_status_SYNTAX_ERROR', 'num_status_COMPILATION_ERROR',
+                   'mean_submit_day', 'mean_submit_hour',
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+TBTL: 28 - 2765 - 237077
+QT: 42 - 4168 - 237078
+TH: 50 - 4925 - 237079
+ck: 42 - 4166 - 237080  
+----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'ratio_error_submissions','num_status_SYNTAX_ERROR',
+                   'num_status_COMPILATION_ERROR',
+                   'mean_submit_day', 'mean_submit_hour',
+                   'num_submits_per_assignment_max',
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std', 'mean_num_updated_at',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+columns_top_drop_TH = columns_to_drop + ['num_assignments']
+TBTL: 28 - 2731 - 237081
+QT: 42 - 4181 - 237082
+TH: 49 - 4847 - 237083
+ck: 42 - 4169 - 237084  
+-----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'num_problems', 'num_assignments', 'ratio_error_submissions',
+                   'num_status_SYNTAX_ERROR', 'num_status_COMPILATION_ERROR',
+                   'mean_submit_day', 'mean_submit_hour','num_submits_per_assignment_max',
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+TBTL: 28 - 2800 - 237085
+QT: 42 - 4168 - 237086
+TH: 49 - 4813 - 237087
+ck: 42 - 4162 - 237089  
+----------------------
+----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'num_problems', 'num_assignments', 'ratio_error_submissions',
+                   'num_status_SYNTAX_ERROR', 'num_status_COMPILATION_ERROR',
+                   'num_status_PENDING',
+                   'mean_submit_day', 'mean_submit_hour','num_submits_per_assignment_max',
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+TBTL: 28 - 2799 - 237120
+QT: 42 - 4168 - 237117
+TH: 49 - 4894 - 237118
+CK: 42 - 4169 - 237119
+----------------------
+----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'ratio_error_submissions','num_status_SYNTAX_ERROR',
+                   'num_status_COMPILATION_ERROR',
+                   'num_status_PENDING'
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std', 'mean_num_updated_at',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+columns_top_drop_TH = columns_to_drop + ['num_assignments']
+TBTL: 29 - 2830 - 237121
+QT: 42 - 4181 - 237122
+TH: 50 - 4934 - 237123
+CK: 42 - 4140 - 237115
+----------------------
+----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'ratio_error_submissions','num_status_SYNTAX_ERROR',
+                   'num_status_COMPILATION_ERROR',
+                   'num_status_PENDING',
+                   'numeric_updated_at', 'numeric_created_at'
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std', 'mean_num_updated_at',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+columns_top_drop_TH = columns_to_drop + ['num_assignments']
+TBTL: 27 - 2677 - 237132
+QT: 41 - 4070 - 237134
+TH: 49 - 4846 - 237133
+CK: 42 - 4133 - 237135
+----------------------
+----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'ratio_error_submissions','num_status_SYNTAX_ERROR',
+                   'num_status_COMPILATION_ERROR',
+                   'num_status_PENDING',
+                   'num_submits_per_problem_mean'
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std', 'mean_num_updated_at',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+columns_top_drop_TH = columns_to_drop + ['num_assignments']
+TBTL: 28 - 2780 - 237151
+QT: 42 - 4192 - 237155
+TH: 50 - 4911 - 237153
+CK: 42 - 4142 - 237156
+----------------------
+----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'ratio_error_submissions','num_status_SYNTAX_ERROR',
+                   'num_status_COMPILATION_ERROR',
+                   'num_status_PENDING',
+                   'num_submits_per_assignment_mean'
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std', 'mean_num_updated_at',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+columns_top_drop_TH = columns_to_drop + ['num_assignments']
+TBTL: 28 - 2786 - 237157
+QT: 42 - 4185 - 237158
+TH: 49 - 4897 - 237159
+CK: 42 - 4150 - 237160
+----------------------
+----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'ratio_error_submissions','num_status_SYNTAX_ERROR',
+                   'num_status_COMPILATION_ERROR',
+                   'num_status_PENDING',
+                   'num_submits_per_problem_std',
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std', 'mean_num_updated_at',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+columns_top_drop_TH = columns_to_drop + ['num_assignments']
+TBTL: 28 - 2785 - 237161
+QT: 42 - 4181 - 237162
+TH: 50 - 4907 - 237163
+CK: 42 - 4156 - 237164
+----------------------
+----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'ratio_error_submissions','num_status_SYNTAX_ERROR',
+                   'num_status_COMPILATION_ERROR',
+                   'num_status_PENDING',
+                   'num_submits_per_assignment_std',
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std', 'mean_num_updated_at',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+columns_top_drop_TH = columns_to_drop + ['num_assignments']
+TBTL: 28 - 2776 - 237165
+QT: 43 - 4204 - 237167
+TH: 50 - 4902 - 237166
+CK: 42 - 4171 - 237168
+----------------------
+----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'ratio_error_submissions','num_status_SYNTAX_ERROR',
+                   'num_status_COMPILATION_ERROR',
+                   'num_status_PENDING',
+                   'num_submits_per_problem_std', 'num_submits_per_problem_min',
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std', 'mean_num_updated_at',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+columns_top_drop_TH = columns_to_drop + ['num_assignments']
+TBTL: 28 - 2795 - 237169
+QT: 42 - 4178 - 237170
+TH: 50 - 4927 - 237171
+CK: 42 - 4176 - 237172
+----------------------
+----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'ratio_error_submissions','num_status_SYNTAX_ERROR',
+                   'num_status_COMPILATION_ERROR',
+                   'num_status_PENDING',
+                   'num_submits_per_assignment_std', 'num_submits_per_assignment_min'
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std', 'mean_num_updated_at',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+columns_top_drop_TH = columns_to_drop + ['num_assignments']
+TBTL: 28 - 2776 - 237173
+QT: 43 - 4204 - 237174
+TH: 50 - 4902 - 237175
+CK: 42 - 4174 - 237176
+----------------------
+----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'ratio_error_submissions','num_status_SYNTAX_ERROR',
+                   'num_status_COMPILATION_ERROR',
+                   'num_status_PENDING',
+                   'num_submits_per_problem_std', 'num_submits_per_problem_min',
+                   'num_submits_per_problem_max'
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std', 'mean_num_updated_at',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+columns_top_drop_TH = columns_to_drop + ['num_assignments']
+TBTL: 28 - 2758 - 237177
+QT: 42 - 4162 - 237178
+TH: 50 - 4906 - 237187
+CK: 42 - 4151 - 237182
+----------------------
+----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'ratio_error_submissions','num_status_SYNTAX_ERROR',
+                   'num_status_COMPILATION_ERROR',
+                   'num_status_PENDING',
+                   'num_submits_per_assignment_std', 'num_submits_per_assignment_min',
+                   'num_submits_per_assignment_max'
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std', 'mean_num_updated_at',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+columns_top_drop_TH = columns_to_drop + ['num_assignments']
+TBTL: 28 - 2733 - 237183
+QT: 43 - 4204 - 237184
+TH: 49 - 4875 - 237185
+CK: 42 - 4151 - 237186
+----------------------
+----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'ratio_error_submissions','num_status_SYNTAX_ERROR',
+                   'num_status_COMPILATION_ERROR',
+                   'num_status_PENDING',
+                   'num_submits_per_problem_std', 'num_submits_per_problem_min', 
+                   'num_submits_per_problem_max', 'num_submits_per_problem_mean'
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std', 'mean_num_updated_at',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+columns_top_drop_TH = columns_to_drop + ['num_assignments']
+TBTL: 29 - 2832 - 237188
+QT: 42 - 4159 - 237189
+TH: 50 - 4916 - 237190
+CK: 42 - 4124 - 237196
+----------------------
+----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'ratio_error_submissions','num_status_SYNTAX_ERROR',
+                   'num_status_COMPILATION_ERROR',
+                   'num_status_PENDING',
+                   'num_submits_per_problem_std', 'num_submits_per_problem_min', 
+                   'num_submits_per_problem_max', 'num_submits_per_problem_mean'
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std', 'mean_num_updated_at',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+columns_top_drop_TH = columns_to_drop + ['num_assignments']
+TBTL: 29 - 2832 - 237188
+QT: 42 - 4159 - 237189
+TH: 50 - 4916 - 237190
+CK: 42 - 4124 - 237196
+----------------------
+----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'ratio_error_submissions','num_status_SYNTAX_ERROR',
+                   'num_status_COMPILATION_ERROR',
+                   'num_status_PENDING',
+                   'num_submits_per_assignment_std', 'num_submits_per_assignment_min',
+                   'num_submits_per_assignment_max', 'num_submits_per_assignment_mean'
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std', 'mean_num_updated_at',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+columns_top_drop_TH = columns_to_drop + ['num_assignments']
+TBTL: 28 - 2720 - 237192
+QT: 42 - 4192 - 237193
+TH: 49 - 4888 - 237194
+CK: 42 - 4144 - 237195
+----------------------
+----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'ratio_error_submissions','num_status_SYNTAX_ERROR',
+                   'num_status_COMPILATION_ERROR',
+                   'num_status_PENDING',
+                   'num_submits_per_problem_std', 'num_submits_per_problem_min', 
+                   'num_submits_per_problem_max', 'num_submits_per_problem_mean',
+                    'num_submits_per_assignment_std', 'num_submits_per_assignment_min',
+                   'num_submits_per_assignment_max', 'num_submits_per_assignment_mean',
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std', 'mean_num_updated_at',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+columns_top_drop_TH = columns_to_drop + ['num_assignments']
+TBTL: 28 - 2770 - 237197
+QT: 42 - 4152 - 237198
+TH: 49 - 4885 - 237199
+CK: 42 - 4126 - 237200
+----------------------
+----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'ratio_error_submissions','num_status_SYNTAX_ERROR',
+                   'num_status_COMPILATION_ERROR',
+                   'num_status_PENDING',
+                   'hour_of_day', 'day_of_week', 'day_of_month',
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std', 'mean_num_updated_at',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+columns_top_drop_TH = columns_to_drop + ['num_assignments']
+TBTL: 29 - 2843 - 237201
+QT: 42 - 4141 - 237202
+TH: 50 - 4920 - 237203
+CK: 42 - 4141 - 237204
+----------------------
+----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+                   'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+                   'ratio_pending_submissions', 'num_submits_per_assignment_min',
+                   'ratio_error_submissions','num_status_SYNTAX_ERROR',
+                   'num_status_COMPILATION_ERROR',
+                   'num_status_PENDING',
+                   'num_submits_per_problem_std', 'num_submits_per_problem_min', 
+                   'num_submits_per_problem_max', 'num_submits_per_problem_mean',
+                   'num_submits_per_assignment_std', 'num_submits_per_assignment_min',
+                   'num_submits_per_assignment_max', 'num_submits_per_assignment_mean',
+                'hour_of_day', 'day_of_week', 'day_of_month',
+                   ]
+
+columns_to_drop_QT = columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                        'mean_num_updated_at', 'mean_num_created_at',
+                                        'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                        'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                        'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                        'ratio_wrong_scores', 'num_submits_per_assignment_max',
+                                        'num_submits_per_problem_std', 'mean_num_updated_at',
+                                        'numeric_updated_at', 'ratio_error_submissions']
+columns_top_drop_TH = columns_to_drop + ['num_assignments']
+TBTL: 29 - 2801 - 237205
+QT: 42 - 4130 - 237206
+TH: 50 - 4944 - 237207
+CK: 42 - 4162 - 237208
+----------------------
+----------------------
+columns_to_drop = ['std_time_to_solve', 'avg_time_to_solve',
+    'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+    'ratio_pending_submissions', 'num_submits_per_assignment_min',
+    'ratio_error_submissions']
+
+columns_to_drop_TL = base_columns_to_drop + ['num_WRONG', 'numeric_updated_at', 'num_status_SYNTAX_ERROR',
+    'num_status_COMPILATION_ERROR',
+    'num_status_PENDING',]
+
+model_TBTL1 = Pipeline(steps=[('scaler', MinMaxScaler()),
+                            ('regressor', SVR(C=11.0, epsilon=0.44, degree=2))])
+model_TBTL1.fit(X_TBTL, y_TBTL)
+
+model_TBTL2 =  Pipeline(steps=[('scaler', None),
+                 ('regressor', CatBoostRegressor(depth=9, l2_leaf_reg=1, iterations=400, learning_rate=0.03, verbose = 0, task_type="GPU", devices='0'))])
+model_TBTL2.fit(X_TBTL, y_TBTL)
+
+list_model_TBTL = [model_TBTL1, model_TBTL2]
+weights_TBTL = [0.4, 1.4]
+
+TBTL: 30 - 2902 - 237317
+----------------------
+----------------------
+MinSun_tuning.ipynb:
+if ratio >= 0.7:
+    return 'easy'
+DROP:
+base_columns_to_drop = [
+    'std_time_to_solve', 'avg_time_to_solve',
+    'ratio_wrong_problems', 'ratio_wrong_assignments', 'ratio_wrong_scores',
+    'ratio_pending_submissions', 'num_submits_per_assignment_min',
+    'ratio_error_submissions'
+]
+
+columns_to_drop_TL = base_columns_to_drop + ['num_WRONG', 'numeric_updated_at', 
+                                             'num_status_SYNTAX_ERROR',
+                                             'num_status_COMPILATION_ERROR',
+                                             'num_status_PENDING',]
+
+columns_to_drop_QT = base_columns_to_drop + ['mean_submit_day', 'mean_submit_hour',
+                                             'mean_num_updated_at', 'mean_num_created_at',
+                                             'num_WRONG', 'num_status_SYNTAX_ERROR',
+                                             'num_status_PENDING', 'num_status_COMPILATION_ERROR',
+                                             'ratio_wrong_problems', 'ratio_wrong_assignments',
+                                             'ratio_wrong_scores', 'num_submits_per_assignment_max', 
+                                             'num_submits_per_problem_std', 'mean_num_updated_at',
+                                             'numeric_updated_at', 'ratio_error_submissions']
+
+columns_to_drop_TH = base_columns_to_drop + [
+    'num_status_SYNTAX_ERROR',
+    'num_status_COMPILATION_ERROR',
+    'num_status_PENDING',
+    'num_submits_per_problem_std', 'num_submits_per_problem_min',
+    'num_submits_per_problem_max', 'num_submits_per_problem_mean',
+    'num_submits_per_assignment_std',
+    'num_submits_per_assignment_max', 'num_submits_per_assignment_mean',
+    'hour_of_day', 'day_of_week', 'day_of_month',
+    'num_assignments'
+]
+
+columns_to_drop_CK = base_columns_to_drop + []
+
+MODEL:
+### TBTL ###:
+X_TBTL = train_df_TL_new.drop(columns=[train_df_TL_new.columns[1], 'username'])
+y_TBTL = train_df_TL_new[train_df_TL_new.columns[1]]
+
+model_TBTL1 = Pipeline(steps=[('scaler', MinMaxScaler()),
+                            ('regressor', SVR(C=11.0, epsilon=0.44))])
+model_TBTL1.fit(X_TBTL, y_TBTL)
+
+model_TBTL2 =  Pipeline(steps=[('scaler', None),
+                 ('regressor', CatBoostRegressor(depth=9, l2_leaf_reg=1, iterations=400, learning_rate=0.03, verbose = 0, task_type="GPU", devices='0'))])
+model_TBTL2.fit(X_TBTL, y_TBTL)
+
+list_model_TBTL = [model_TBTL1, model_TBTL2]
+weights_TBTL = [0.4, 1.4]
+voting_TBTL = WeightedVotingRegressor(models=list_model_TBTL, weights=weights_TBTL)
+
+### QT ###:
+X_QT = train_df_QT_new.drop(columns=[train_df_QT_new.columns[1], 'username'])
+y_QT = train_df_QT_new[train_df_QT_new.columns[1]]
+
+model_QT1 = Pipeline(steps=[('scaler', MinMaxScaler()),
+                            ('regressor', SVR(C=5.0, epsilon=0.4))])
+model_QT1.fit(X_QT, y_QT)
+
+model_QT2 = Pipeline(steps=[('scaler', StandardScaler()),
+                 ('regressor',
+                  MapieRegressor(cv=5,
+                                 estimator=GradientBoostingRegressor(random_state=42, n_estimators=400, learning_rate=0.05)))])
+model_QT2.fit(X_QT, y_QT)
+
+
+model_QT3 =  Pipeline(steps=[('scaler', StandardScaler()),
+                 ('regressor',
+                  RandomForestRegressor(n_estimators=100, random_state=42, min_samples_leaf=6))])
+
+model_QT3.fit(X_QT, y_QT)
+
+list_model_QT = [model_QT1, model_QT2, model_QT3]
+weights_QT = [0.4, 0.3, 0.4]
+voting_QT = WeightedVotingRegressor(models=list_model_QT, weights=weights_QT)
+
+### TH ###:
+X_TH = train_df_TH_new.drop(columns=[train_df_TH_new.columns[1], 'username'])
+y_TH = train_df_TH_new[train_df_TH_new.columns[1]]
+
+model_TH1 = Pipeline(steps=[('scaler', MinMaxScaler()),
+                            ('regressor', SVR(C=4.0, epsilon=0.42))])
+model_TH1.fit(X_TH, y_TH)
+
+model_TH2 =  Pipeline(steps=[('scaler', None),
+                 ('regressor', CatBoostRegressor(depth=9, l2_leaf_reg=1, iterations=400, learning_rate=0.03, verbose = 0))])
+model_TH2.fit(X_TH, y_TH)
+
+list_model_TH = [model_TH1, model_TH2]
+weights_TH = [0.5, 0.5]
+voting_TH = WeightedVotingRegressor(models=list_model_TH, weights=weights_TH)
+
+### CK ###:
+X_CK = train_df_CK_new.drop(columns=[train_df_CK_new.columns[1], 'username'])
+y_CK = train_df_CK_new[train_df_CK_new.columns[1]]
+
+model_CK1 = Pipeline(steps=[('scaler', MinMaxScaler()),
+                            ('regressor', SVR(C=5.0, epsilon=0.4))])
+model_CK1.fit(X_CK, y_CK)
+
+
+model_CK2 = Pipeline(steps=[('scaler', StandardScaler()),
+                 ('regressor',
+                  MapieRegressor(cv=5,
+                                 estimator=GradientBoostingRegressor(random_state=42, n_estimators =400, learning_rate=0.05)))])
+model_CK2.fit(X_CK, y_CK)
+
+model_CK3 = Pipeline(steps=[('scaler', StandardScaler()),
+                 ('regressor',
+                  RandomForestRegressor(max_depth=10, n_estimators=70,
+                                        random_state=42))])
+model_CK3.fit(X_CK, y_CK)
+
+model_CK4 = Pipeline(steps=[('scaler', StandardScaler()),
+                 ('regressor', CatBoostRegressor(depth=9, l2_leaf_reg=1, iterations=400, learning_rate=0.03, verbose=0))])
+model_CK4.fit(X_CK, y_CK)
+
+list_model_CK = [model_CK1, model_CK2, model_CK3, model_CK4]
+weights_CK = [0.3, 0.3, 0.3, 0.2]
+voting_CK = WeightedVotingRegressor(models=list_model_CK, weights=weights_CK)
+----------CPU---------------
+TBTL: 28 - 2759 - 237462
+QT: 43 - 4216 - 237437
+TH: 50 - 4938 - 237461
+CK: 43 - 4222 - 237438
+----------GPU----------------
+TBTL: 30 - 2902 - 237435
+QT: 43 - 4216 - 237437
+TH:  50 - 4922 - 237459
+CK:  43 - 4216 - 237460
+----------H2OAutoML----------
+TBTL: 24 - 2371 - 237554
+QT: 35 - 3472 - 237556
+TH: 44 - 4344 - 237555
+CK: 37 - 3686 - 237557
+----------AutoGluon----------
+TBTL: 28 - 2749 - 237558
+QT: 40 - 3910 - 237560
+TH: 49 - 4831 - 237559
+CK: 42 - 4197 - 237561
+----------MLJAR--------------
+TBTL: 28 - 2742 - 237562
+QT: 33 - 3222 - 237564
+TH: 49 - 4859 - 237563
+CK: 41 - 4094 - 237566

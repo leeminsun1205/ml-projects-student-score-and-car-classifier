@@ -1,0 +1,18 @@
+Project 1: DỰ ĐOÁN NHÃN HIỆU XE
+----------
+Cropped Dataset:
+- Google Drive: https://drive.google.com/file/d/1kKmvvpLgp1SrtzWd3KVd4Qvo7dldHsVl/view?usp=sharing
+- Kaggle: https://www.kaggle.com/datasets/beancute/cs114-cropped-full-dataset
+Full Augmented Dataset:
+- Google Drive: https://drive.google.com/file/d/1cX5oo-MOEoFeSmw5JOWWXgn0L342Xw2y/view?usp=sharing
+- Kaggle: https://www.kaggle.com/datasets/beancute/cs114-full-augmented-dataset
+Full Dataset:
+- Google Drive: https://drive.google.com/file/d/1wk9PdgeFTVK2CHsFdEoGy03BXqi0ZJSH/view?usp=sharing
+- Kaggle: https://www.kaggle.com/datasets/zzdagonzz/cs114-final-project-full-dataset
+Augmented Dataset:
+- Google Drive: https://drive.google.com/file/d/1hQwVsYgei2-8e4pJvJVcprCnVo8AqGh1/view?usp=sharing
+- Kaggle: https://www.kaggle.com/datasets/beancute/cs114-augmented-dataset
+Project 2: DỰ ĐOÁN ĐIỂM TỪ DỮ LIỆU WECODE
+----------
+- Google Drive: https://drive.google.com/file/d/11KbHu5icl_Kew1bJypSmLNicoNe97K_v/view?usp=sharing
+- Kaggle: https://www.kaggle.com/datasets/itsgad/cs114-final-project
